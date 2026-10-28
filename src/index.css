@@ -1,0 +1,317 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient( 135deg, #160b20 0%, #35143f 45%, #6b216b 100% ); } 
+  
+
+/* =========================================
+          MAIN LOGIN CONTAINER
+========================================= */
+
+.Loginsetup {
+  width: min(900px, 90%);
+  min-height: 560px;
+  margin: 8vh auto;
+  display: flex;
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+  animation: fadeIn 0.7s ease-out;
+} 
+  
+/* =========================================
+              IMAGE
+========================================= */
+
+
+.Loginsetup > img {
+  width: 52%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* =========================================
+            LOGIN SIDE
+========================================= */
+
+
+.Login {
+  width: 48%;
+  padding: 55px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  color: #222;
+}
+
+
+
+/* =========================================
+WELCOME TEXT
+========================================= */
+
+
+
+.TextLogin {
+  margin-bottom: 45px;
+}
+
+
+.TextLogin p {
+  color: #777;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+
+
+.TextLogin h3 {
+  color: #a52ca1;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+
+
+/* =========================================
+FORM
+========================================= */
+
+
+.form1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+}
+
+
+.form1 h3 {
+  color: #222;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+
+.form1 h3 span {
+  color: #a52ca1;
+  font-weight: 700;
+}
+
+
+
+/* =========================================
+INPUTS
+========================================= */
+
+
+.form1 input {
+  width: 100%;
+  padding: 13px 4px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #d5d5d5;
+  outline: none;
+  color: #222;
+  font-size: 15px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+.form1 input::placeholder {
+  color: #aaa;
+}
+
+
+.form1 input:focus {
+  border-bottom-color: #a52ca1;
+  box-shadow: 0 3px 0 rgba(165, 44, 161, 0.12);
+}
+
+
+
+/* =========================================
+SHOW / HIDE PASSWORD
+========================================= */
+
+
+.form1 > div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -8px;
+}
+
+
+.form1 button {
+  border: none;
+  background: transparent;
+  color: #a52ca1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 0;
+  transition: color 0.2s ease;
+}
+
+
+
+.form1 button:hover {
+  color: #6d176a;
+}
+
+
+/* =========================================
+LOGIN BUTTON
+========================================= */
+
+
+.Loginbtn {
+  width: 100%;
+  margin-top: 28px;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient( 135deg, #7d22a8 0%, #b52ca8 100% );
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(165, 44, 161, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+
+.Loginbtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(165, 44, 161, 0.35);
+}
+
+.Loginbtn:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 12px rgba(165, 44, 161, 0.25);
+}
+
+
+
+/* =========================================
+PAGE ANIMATION
+========================================= */
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px);} 
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* =========================================
+TABLET
+========================================= */ 
+
+
+@media (max-width: 750px) { 
+  .Loginsetup {
+    width: 90%;
+    min-height: 520px;
+  }
+
+  .Loginsetup > img {
+    width: 45%;
+  } 
+  
+  .Login {
+    width: 55%;
+    padding: 40px 30px;
+  }
+  
+  .TextLogin {
+    margin-bottom: 35px;
+  }
+
+}
+
+
+/* =========================================
+MOBILE
+========================================= */ 
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px 0;
+  } 
+  
+  .Loginsetup {
+    width: 92%;
+    min-height: auto;
+    margin: 30px auto;
+    flex-direction: column;
+    border-radius: 18px;
+  }
+  
+  .Loginsetup > img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+  }
+  
+  .Login {
+    width: 100%;
+    padding: 35px 28px 40px;
+  }
+  
+  .TextLogin {
+    margin-bottom: 30px;
+  } 
+  
+  .TextLogin p {
+    font-size: 15px;
+  }
+  
+  .TextLogin h3 {
+    font-size: 24px;
+  }
+
+}
+
+
+/* =========================================
+SMALL MOBILE 
+========================================= */ 
+
+@media (max-width: 400px) {
+  .Loginsetup {
+    width: 94%;
+  } 
+  
+  .Login {
+    padding: 30px 22px 35px;
+  } 
+  
+  .TextLogin h3 {
+    font-size: 22px;
+  }
+
+  .form1 h3 { 
+    font-size: 18px;
+  } 
+
+  .Loginbtn {
+    padding: 12px;
+  }
+}
