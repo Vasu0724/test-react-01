@@ -53,21 +53,6 @@ Gradient background, animations, and hover effects.
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 </p>
 
-📂 Project Structure
-
-Login-Page/
-│
-├── public/
-├── src/
-│   ├── assets/
-│   │   └── welcomeImg2.png
-│   ├── App.jsx
-│   ├── App.css
-│   └── main.jsx
-│
-├── index.html
-├── package.json
-└── README.md
 
 ⚙️ Installation & Setup
 
