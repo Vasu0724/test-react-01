@@ -10,7 +10,7 @@
 
 ![Login Page Preview](./screenshots/login-page.png)
 
-🚀 Features
+## 🚀 Features
 
 Feature
 
@@ -48,7 +48,7 @@ Displays alerts for login success and errors.
 
 Gradient background, animations, and hover effects.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
@@ -58,7 +58,7 @@ Gradient background, animations, and hover effects.
 </p>
 
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 1. Clone the repository
 
@@ -78,7 +78,7 @@ npm run dev
 
 Open the local URL displayed in your terminal.
 
-🔑 Demo Credentials
+## 🔑 Demo Credentials
 
 Field
 
@@ -102,7 +102,7 @@ Tablet: Adjusted image and form proportions.
 
 Mobile: Image and login form displayed vertically.
 
-📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 This project helped me practice:
 
@@ -122,11 +122,11 @@ Responsive design using media queries.
 
 CSS transitions and animations.
 
-⚠️ Important Note
+## ⚠️ Important Note
 
 This is a frontend practice project. Login credentials are hardcoded for demonstration purposes. There is no backend or database authentication. It is not intended for production use.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Vasu
 
