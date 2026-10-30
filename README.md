@@ -6,6 +6,10 @@
   Features interactive form validation, password visibility toggle, and responsive styling.
 </p>
 
+## 🖥️ Project Preview
+
+![Login Page Preview](./screenshots/login-page.png)
+
 🚀 Features
 
 Feature
