@@ -1,16 +1,127 @@
-# React + Vite
+Login Page – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern Login Page built using React.js and CSS. This project includes email and password validation, show/hide password functionality, and a clean, user-friendly interface.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Responsive Design: Works on desktop, tablet, and mobile devices.
 
-## React Compiler
+Email Validation: Checks whether the email field is empty.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Password Validation: Checks whether the password field is empty.
 
-## Expanding the ESLint configuration
+Login Authentication: Validates user credentials against predefined email and password.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Show/Hide Password: Allows users to toggle password visibility.
+
+Input Handling: Uses React's useState hook to manage form inputs.
+
+Interactive UI: Displays alerts for successful login, missing fields, and incorrect credentials.
+
+Modern Styling: Gradient background, smooth animations, and hover effects.
+
+🛠️ Technologies Used
+
+React.js
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS3
+
+React Hooks (useState)
+
+Project Structure
+
+Login-Page/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── welcomeImg2.png
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+
+Installation & Setup
+
+Clone this repository:
+
+git clone YOUR_REPOSITORY_URL
+
+Navigate to the project folder:
+
+cd Login-Page
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open the local URL displayed in your terminal.
+
+Demo Credentials
+
+Use the following credentials to test the login functionality:
+
+Field
+
+Value
+
+Email
+
+Vasu@gmail.com
+
+Password
+
+Vasu@123
+
+Responsive Design
+
+The layout adjusts according to different screen sizes:
+
+Desktop: Side-by-side image and login form.
+
+Tablet: Adjusted image and form proportions.
+
+Mobile: Vertically stacked image and login form.
+
+Learning Outcomes
+
+Through this project, I practiced:
+
+React functional components.
+
+Managing state using useState.
+
+Handling input events using onChange.
+
+Handling button clicks using onClick.
+
+Conditional rendering.
+
+Form validation using JavaScript.
+
+CSS Flexbox and positioning.
+
+Responsive web design using media queries.
+
+CSS transitions and animations.
+
+Note
+
+This is a frontend practice project. The login credentials are hardcoded for demonstration purposes. It does not use a backend or database and is not intended for production authentication.
+
+Author
+
+Vasu
+
+A React learning project focused on improving frontend development, JavaScript, and CSS skills.
